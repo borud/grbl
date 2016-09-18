@@ -257,7 +257,7 @@
 // When disabled, the PWM pin will still read 0V. Most users will not need this option, but it may be 
 // useful in certain scenarios. This setting does not update the minimum spindle RPM calculations. Any
 // spindle RPM output lower than this value will be set to this value.
-// #define MINIMUM_SPINDLE_PWM 5 // Default disabled. Uncomment to enable. Integer (0-255)
+#define MINIMUM_SPINDLE_PWM 5 // Default disabled. Uncomment to enable. Integer (0-255)
 
 // By default on a 328p(Uno), Grbl combines the variable spindle PWM and the enable into one pin to help 
 // preserve I/O pins. For certain setups, these may need to be separate pins. This configure option uses
